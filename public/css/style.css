@@ -1,3 +1,82 @@
-h1 {
-    color:red;
+*{
+    box-sizing: border-box;
+    transition-duration: 0.5s:
+}
+
+body{
+    background-image: url("../img/01.jpg");
+}
+
+.fa-6 {
+    font-size: 5em;
+}
+
+div {
+    background-color: #eee;
+}
+
+div.wrapper {
+    width:960px; /* partie utile de la page */
+    margin:auto; /* centrée au milieu de la page */;
+}
+
+header {
+    display : flex;
+}
+
+div#retour_home {
+    width: 100px;
+    padding-left: 10px;
+}
+
+div#titre {
+    width : 700px;
+    border : 1px solid black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+div.contact {
+    width : 160px;
+    text-align:center;
+    border : 1px solid blue;
+}
+
+main {
+    display : flex;
+}
+
+
+div#gauche {
+    width : 200px;
+    border : 1px solid orange;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+img#photo_profil {
+    width:100%;
+}
+
+div#droite {
+    width : 760px;
+    border : 1px solid yellow;
+    padding-left: 10px;
+    padding-top:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+div#droite {
+
+}
+
+footer {
+    display : flex;
+}
+
+div#partage {
+    width:800px;
+    border:1px solid pink;
+    text-align: center;
 }
