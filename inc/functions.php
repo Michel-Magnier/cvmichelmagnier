@@ -9,7 +9,7 @@ function sendEmail($to, $subject, $htmlContent, $textContent=''){
     try {
         //Server settings
         $mail->CharSet = 'UTF-8';
-        $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+        // $mail->SMTPDebug = 2;                                 // Enable verbose debug output
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = $config['EMAIL_HOST'];  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -39,7 +39,6 @@ function sendEmail($to, $subject, $htmlContent, $textContent=''){
         $mail->AltBody = $textContent;
 
         $mail->send();
-        echo 'Message has been sent';
     } catch (Exception $e) {
         echo 'Message could not be sent.';
         echo 'Mailer Error: ' . $mail->ErrorInfo;

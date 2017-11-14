@@ -7,6 +7,10 @@ body{
     background-image: url("../img/01.jpg");
 }
 
+div#titre_contact {
+    text-align: center;
+}
+
 .fa-6 {
     font-size: 5em;
 }
@@ -31,7 +35,6 @@ div#retour_home {
 
 div#titre {
     width : 700px;
-    border : 1px solid black;
     text-align: center;
     padding-top: 15px;
 }
@@ -39,7 +42,6 @@ div#titre {
 div.contact {
     width : 160px;
     text-align:center;
-    border : 1px solid blue;
 }
 
 main {
@@ -49,7 +51,7 @@ main {
 
 div#gauche {
     width : 200px;
-    border : 1px solid orange;
+    border-right: 1px solid darkgrey;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -60,7 +62,6 @@ img#photo_profil {
 
 div#droite {
     width : 760px;
-    border : 1px solid yellow;
     padding-left: 10px;
     padding-top:10px;
     padding-right: 10px;
@@ -71,12 +72,15 @@ div#droite {
 
 }
 
+div#bouton_send_email{
+    text-align: center;
+}
+
 footer {
     display : flex;
 }
 
 div#partage {
     width:800px;
-    border:1px solid pink;
     text-align: center;
 }
